@@ -5,7 +5,7 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Applications/Emulators
-Source0:	%{name}-%{PACKAGE_VERSION}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 ExclusiveOs:	Linux
 ExclusiveArch:	sparc sparc64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
