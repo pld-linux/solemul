@@ -5,8 +5,6 @@ Version:	1.1
 Release:	1
 License:	GPL
 Group:		Applications/Emulators
-Group(de):	Applikationen/Emulators
-Group(pl):	Aplikacje/Emulatory
 Source0:	%{name}-%{PACKAGE_VERSION}.tar.gz
 ExclusiveOs:	Linux
 ExclusiveArch:	sparc sparc64
