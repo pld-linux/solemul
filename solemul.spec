@@ -31,7 +31,7 @@ install -d $RPM_BUILD_ROOT
 
 (cd $RPM_BUILD_ROOT
 tar xzpSf %{SOURCE0}
-mv -f solemul-%{version}/usr usr
+mv -f solemul-%{version}%{_prefix} usr
 rm -rf solemul-%{version}
 )
 
@@ -43,4 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README.gz
-/usr/gnemul/solaris
+%{_prefix}/gnemul/solaris
