@@ -7,7 +7,7 @@ Group: Applications/Emulators
 Source: solemul-%{PACKAGE_VERSION}.tar.gz
 ExclusiveOs: Linux
 ExclusiveArch: sparc sparc64
-BuildRoot: /var/tmp/%{name}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains the /usr/gnemul/solaris directory tree required
