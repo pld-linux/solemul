@@ -1,5 +1,5 @@
 Summary:	Directory tree required by Solaris emulation module
-Summary(pl):	Drzewo katalogów potrzebne w trybie emulacji Solarisa
+Summary(pl.UTF-8):   Drzewo katalogÃ³w potrzebne w trybie emulacji Solarisa
 Name:		solemul
 Version:	1.1
 Release:	1
@@ -17,10 +17,10 @@ by the Solaris emulation module.
 Note that to use this package, you will also need to install several
 libraries from your Solaris OS. See accompanying docs for more info.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet zawiera drzewo katalogowe /usr/gnemul/solaris potrzebne w
-trybie emulacji Solarisa. Aby u¿ywaæ tego pakietu, potrzebujesz
-jeszcze niektórych bibliotek z Solarisa - patrz dokumentacja.
+trybie emulacji Solarisa. Aby uÅ¼ywaÄ‡ tego pakietu, potrzebujesz
+jeszcze niektÃ³rych bibliotek z Solarisa - patrz dokumentacja.
 
 %prep
 %setup -q
