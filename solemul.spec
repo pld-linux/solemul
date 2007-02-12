@@ -1,5 +1,5 @@
 Summary:	Directory tree required by Solaris emulation module
-Summary(pl.UTF-8):   Drzewo katalogów potrzebne w trybie emulacji Solarisa
+Summary(pl.UTF-8):	Drzewo katalogów potrzebne w trybie emulacji Solarisa
 Name:		solemul
 Version:	1.1
 Release:	1
